@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.csc.ZipperTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-10-11T14:53:59" hostname="fedora" time="0.637">
+<testsuite name="com.csc.ZipperTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-10-13T14:09:23" hostname="fedora" time="0.15">
   <properties/>
-  <testcase name="testInteger()" classname="com.csc.ZipperTest" time="0.596"/>
-  <testcase name="testString()" classname="com.csc.ZipperTest" time="0.011"/>
-  <testcase name="itWorks()" classname="com.csc.ZipperTest" time="0.009"/>
-  <system-out><![CDATA[java.util.ImmutableCollections$ListItr@3a7442c7
-java.util.ImmutableCollections$ListItr@16eb3ea3
-]]></system-out>
+  <testcase name="testLeftOnly()" classname="com.csc.ZipperTest" time="0.126"/>
+  <testcase name="testRightOnly()" classname="com.csc.ZipperTest" time="0.003"/>
+  <testcase name="testInteger()" classname="com.csc.ZipperTest" time="0.003"/>
+  <testcase name="testString()" classname="com.csc.ZipperTest" time="0.003"/>
+  <testcase name="itWorks()" classname="com.csc.ZipperTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

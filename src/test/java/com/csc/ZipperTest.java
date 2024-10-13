@@ -35,4 +35,20 @@ public class ZipperTest {
     List<String> test = List.of("Red", "White", "Green", "Black", "Blue", "Orange", "Pink");
     assertEquals(test, zipper.zip(colors1, colors2 ));
   }
+
+  @Test
+  void testLeftOnly() {
+    List<String> colors1 = List.of("Red", "Green", "Blue");
+    List<String> colors2 = List.of();
+    List<String> test = List.of("Red", "Green", "Blue");
+    assertEquals(test, zipper.zip(colors1, colors2 ));
+  }
+
+  @Test
+  void testRightOnly() {
+    List<String> colors1 = List.of();
+    List<String> colors2 = List.of("White", "Black", "Orange", "Pink");
+    List<String> test = List.of("White", "Black", "Orange", "Pink");
+    assertEquals(test, zipper.zip(colors1, colors2 ));
+  }
 }
